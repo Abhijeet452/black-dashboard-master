@@ -3859,6 +3859,7 @@ input[type="button"].btn-block {
   white-space: nowrap;
   background-color: transparent;
   border: 0;
+  cursor: pointer;
 }
 
 .dropdown-item:hover,
@@ -20258,12 +20259,21 @@ Copyright (c) 2015 Daniel Eden
 
 .card-chart .dropdown {
   position: absolute;
-  right: 20px;
+  right: 100px;
   top: 20px;
+  width: 200px;
+}
+
+.card-chart .dropdown2 {
+  position: absolute;
+  right: 300px !important;
+  top: 20px;
+  width: 200px;
 }
 
 .card-chart .dropdown .btn {
   margin: 0;
+  width: 200px;
 }
 
 .card-chart.card-chart-pie .chart-area {
