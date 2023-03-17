@@ -446,7 +446,7 @@ demo = {
       gradientStroke.addColorStop(0, 'rgba(119,52,169,0)');
 
       let config__ = {
-        type: 'bar',
+        type: 'line',
         data: {
           labels: x,
           datasets: [{
@@ -463,7 +463,7 @@ demo = {
             pointBorderWidth: 20,
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
-            pointRadius: 4,
+            pointRadius: 1,
             data: y,
           }]
         },
