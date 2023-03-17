@@ -90,6 +90,7 @@
 
 .waves{
   cursor: pointer;
+  text-align: center;
 }
 
 .waves:hover{
