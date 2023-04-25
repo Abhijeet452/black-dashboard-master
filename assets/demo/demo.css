@@ -104,3 +104,18 @@
 .currentWave:hover{
   background-color: #282d32 !important;
 }
+
+.mainSelect{
+  color: black;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.mainUnselect{
+  font-size: 13px;
+}
+
+.mainUnselect:hover{
+  color:#777777;
+  font-weight: 500;
+}
